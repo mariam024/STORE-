@@ -1,0 +1,43 @@
+.hero {
+    min-height: 90vh;
+    background-image: url("../images/2147955455.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.custom-btn {
+    width: 200px;
+    height: 45px;
+    background-color: #5E936C;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #5e936cd7;
+    transform: scale(1.03);
+}
+
+@media (max-width: 576px) {
+    .custom-btn {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
