@@ -36,7 +36,7 @@
 
 1. Clone the repository
 ```bash
-git clone https://github.com/mariam024/STORE.git
+git clone https://github.com/mariam024/STORE-.git
 cd Store
 ```
 
